@@ -616,8 +616,7 @@
   left: calc(50vw - 40px);
 }
 .bala{
-  height: 20%;
-  width: 20%;
+  width: 10%;
   background-image: url("./img/beeper2.png");
   border-radius: 15px;
   
