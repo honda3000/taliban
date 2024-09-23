@@ -122,7 +122,8 @@
   .hero {
     display: grid;
     align-items: center;
-
+    margin-top: 40px;
+    height: 110vh;
     > * {
       grid-area: 1/1;
     }
@@ -179,10 +180,13 @@
   }
 
   .fold {
+    margin-top: 30px;
     display: grid;
     justify-content: center;
     padding: var(--size-10);
-
+    background-image: url("./img/musulwall2.png");
+    background-size: cover;
+    height: 110vh;
     & p {
       text-align: center;
       font-size: var(--font-size-7);
@@ -622,7 +626,7 @@
 .enemigo{
   width: 80px;
   height: 50px;
-  background-image: url('./img/roca.png');
+  background-image: url('./img/musul.png');
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -646,7 +650,7 @@ i{
   color:lightcoral;
 }
 .showcase{
-  background-image: url('./img/espacio.jpg');
+  background-image: url('./img/wall3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;

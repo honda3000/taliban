@@ -13,7 +13,7 @@ setInterval(() => {
         
         location.reload();
     }
-}, 1000);
+}, 500);
 document.addEventListener('mousemove',(e)=>{
     nave.style.left=(e.clientX-40)+'px';
 });
@@ -43,7 +43,7 @@ setInterval(()=>{
         enemigos.forEach(enemigo => {
             if (bala.getBoundingClientRect().top<=enemigo.getBoundingClientRect().top+50){
                 if (bala.getBoundingClientRect().left>=enemigo.getBoundingClientRect().left && bala.getBoundingClientRect().left<=enemigo.getBoundingClientRect().left+80){
-                    enemigo.style.backgroundImage='url("img/explosion.png")';
+                    enemigo.style.backgroundImage='url("./img/musul2.png")';
                     explosion.play();
                    setTimeout(() => {
                        enemigo.remove();
@@ -81,4 +81,4 @@ setInterval(()=>{
           }
         });
     
-},100);
+},50);
