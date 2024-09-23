@@ -624,7 +624,7 @@
 }
 .enemigo{
   width: 160px;
-  height: 100px;
+  height: 160px;
   background-image: url('./img/musul.png');
   background-repeat: no-repeat;
   background-size: cover;
