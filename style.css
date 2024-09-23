@@ -657,3 +657,15 @@ i{
   width: 100vw;
   overflow: hidden;
 }
+
+.social{
+  width: 30%;
+  color: red;
+  
+}
+.link{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
