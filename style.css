@@ -123,7 +123,7 @@
     display: grid;
     align-items: center;
     margin-top: 40px;
-    height: 110vh;
+    height: 800px;
     > * {
       grid-area: 1/1;
     }
@@ -149,11 +149,17 @@
 
       block-size: calc(100dvh - var(--nav-block-size));
       overflow: hidden;
-
+      
+      & picture {
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      background: var(--gradient-8);
+        
+      }
       & img {
-        object-fit: cover;
-        inline-size: 100%;
-        block-size: 100%;
+        width: 80%;
+        
       }
     }
 
@@ -163,6 +169,7 @@
     }
 
     .content {
+      
       display: grid;
       place-items: center;
     }
@@ -180,13 +187,19 @@
   }
 
   .fold {
+    
+top: 50%;
+left: 50%;
+transform: translate(13%, 0%);
     margin-top: 30px;
     display: grid;
     justify-content: center;
+    place-items: var(--container);
     padding: var(--size-10);
     background-image: url("./img/musulwall2.png");
     background-size: cover;
     height: 110vh;
+    width: 80%;
     & p {
       text-align: center;
       font-size: var(--font-size-7);
@@ -667,4 +680,10 @@ i{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home1{
+  
+}
+.foldcont{
+  position: relative;
 }
