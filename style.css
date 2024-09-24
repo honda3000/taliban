@@ -188,9 +188,8 @@
 
   .fold {
     
-top: 50%;
-left: 50%;
-transform: translate(13%, 0%);
+
+    margin-left: 10%;
     margin-top: 30px;
     display: grid;
     justify-content: center;
@@ -685,5 +684,5 @@ i{
   
 }
 .foldcont{
-  position: relative;
+  
 }
