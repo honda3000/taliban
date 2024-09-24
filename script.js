@@ -115,7 +115,7 @@ function textReplace(words, targetElement, rate) {
       wordIndex = (wordIndex + 1) % words.length;
       randomWordElement.textContent = words[wordIndex];
       randomWordElement.style.opacity = 1; // Fade in
-    }, 1000);
+    }, 2000);
   };
 
   const interval = setInterval(changeWordWithAnimation, rate);
