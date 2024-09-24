@@ -191,13 +191,13 @@
     
 
     margin-left: 10%;
-    margin-top: 30px;
+    margin-top: 10vh;
     display: grid;
     justify-content: center;
     place-items: var(--container);
     padding: var(--size-10);
     background-image: url("./img/musulwall2.png");
-    background-size: cover;
+    background-size:contain;
     height: 110vh;
     width: 80%;
     & p {
