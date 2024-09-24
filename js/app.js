@@ -69,7 +69,7 @@ setInterval(()=>{
     }
         let enemigos=document.querySelectorAll('.enemigo');
         enemigos.forEach(element => {
-            element.style.top=(element.getBoundingClientRect().top+10)+'px';
+            element.style.top=(element.getBoundingClientRect().top+2)+'px';
           if (element.getBoundingClientRect().top>nave.getBoundingClientRect().top){
               lives--;
               live.textContent=lives;
@@ -81,4 +81,4 @@ setInterval(()=>{
           }
         });
     
-},120);
+},50);
