@@ -619,9 +619,9 @@
 
 
 .nave{
-  width: 80px;
-  height: 80px;
-  background-image: url('./img/nave.png');
+  width: 90px;
+  height: 145px;
+  background-image: url('./img/beeper.png');
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -688,5 +688,10 @@ i{
   top: 30%;
 }
 .boom{
+  
   font-size: 200px;
+}
+
+.footer{
+  background-color: blueviolet;
 }
